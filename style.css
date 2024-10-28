@@ -1,0 +1,174 @@
+/* NAV */
+.nav-main{
+    height: 60px;
+}
+
+.nav-main div:nth-child(1) {
+    width: 15%;
+
+    input {
+        border: none;
+        border-radius: 30px;
+        background: #F0F2F5;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+.nav-main div:nth-child(2) {
+    width: 30%;
+}
+
+/* HEADER */
+
+header {
+    padding: 0 10%;
+    background: linear-gradient(180deg, #3F3B35 0%, rgba(217, 217, 217, 0.00) 100%);
+}
+
+.banner {
+    width: 100%;
+}
+
+header article {
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+
+    h3 {
+        font-size: 23px;
+    }
+
+    p {
+        color: #65676B;
+        font-size: 17px;
+    }
+}
+
+header nav {
+    border-top: 1px solid #CED0D4;
+}
+
+header button {
+    border-radius: 6px;
+    background: #1877F2;
+    color: white;
+    padding: 10px 100px;
+    font-size: 17px;
+    border: none;
+}
+
+/* NAVIGATION */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation ol {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.navigation li {
+    display: inline-block;
+    color: #65676B;
+    padding: 0 30px 20px 30px;
+}
+
+.navigation li.active {
+    color: #1877F2;
+    border-bottom: 3px solid #1877F2;
+}
+
+.navigation button {
+    margin: 0 10px;
+}
+
+.navigation .btn-ilikeit {
+    background-color: #E7F3FF;
+    color: #1877F2;
+    padding: 10px 40px;
+}
+
+.navigation .btn-send-message {
+    background-color: #E4E6EB;
+    color: black;
+    padding: 10px 30px;
+}
+
+.navigation .btn-icon {
+    background-color: #E4E6EB;
+    padding: 10px 20px;
+}
+
+/* MAIN */
+
+main {
+    background: #F0F2F5;
+    padding: 15px 10%;
+    height: 100%;
+    display: flex;
+}
+
+main section div {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.10), 0px 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.splunk-icon {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.first-column {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin-right: 10%;
+}
+
+.second-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.component {
+    width: 100%;
+    padding: 20px;
+    margin: 15px 0 15px 0;
+}
+
+.splunk-post-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.multiple-photos-image {
+    padding-top: 10px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.presenation-text { 
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.presenation-icon-container {
+    padding: 10px 0;
+    display: flex;
+}
+
+.presenation-icon-container p {
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+.presenation-icon {
+    width: 20px;
+}

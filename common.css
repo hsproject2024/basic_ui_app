@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    font-family: "IBM Plex Sans";
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
